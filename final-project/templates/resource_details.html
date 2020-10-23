@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Resource details
+{% endblock %}
+
+{% block main %}
+{%if resource_title  != None %}
+<div class= "container" style="background-color: rgb(255, 245, 230, 0.85);">
+<!--resource title    -->
+<h1>{{details[0]["Title"]}}</h1><br>
+<!--resource links-->
+<h3>Link(s)</h3>
+<p><a href="{{details[0]["Link"]}}">{{details[0]["Link"]}}</a></p>
+<h3>Resource Discription</h3>
+<p>{{details[0]["Description"]}}</p>
+
+<h2>Personal notes</h2>
+
+<p>{{details[0]["Notes"]}}</p><br>
+<!--The forms below is for update or delete the resource-->
+<div class="form-container">
+    <div>
+       <form action="/update" method="post">
+
+           <a href="{{ url_for('update', title=details[0]["Title"]) }}"><input class="btn btn-primary button"   name="submit_button"  type="button" value="update"></a>
+
+       </form>
+    </div>
+   <div>
+       <form action="/resource_details" method="post">
+
+           <a href="{{ url_for('delete', title=details[0]["Title"]) }}"><input class="btn btn-danger"   name="submit_button"  type="button" value="Delete" onclick="return confirm('Are you sure you want to delete this resorce?');"></a>
+
+       </form>
+    </div>
+</div><br>
+
+
+
+{%endif%}
+</div>
+{% endblock %}

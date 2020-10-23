@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Create resource
+{% endblock %}
+
+{% block main %}
+    <form action="/create" method="post">
+        <div class="form-group">
+            <lable for="title" class="h4"> Title  : </lable><input autocomplete="off" autofocus class="form-control-lg" name="title" placeholder="Resource Title" type="text">
+        </div>
+         <div class="form-group">
+            <lable for="link" class="h4">Link  : </lable><input autocomplete="off" autofocus class="form-control-lg" name="link" placeholder="Resource Link" type="text">
+        </div>
+         <div class="form-group formfield">
+
+            <lable for="description" class="h4">Description: </lable><textarea rows="5" cols="50" autocomplete="off" autofocus class="form-control position" name="details" placeholder="Resource Description" ></textarea>
+        </div>
+        <div class="form-group formfield">
+
+            <lable for="notes" class="h4 note">Notes:  </lable><textarea rows="5" cols="50"autocomplete="off" autofocus class="form-control" name="notes" placeholder="Personal notes" ></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Create</button>
+    </form>
+    <div>
+
+    </div>
+
+{% endblock %}
