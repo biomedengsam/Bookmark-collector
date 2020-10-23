@@ -7,13 +7,12 @@ I had different bookmarks on different social media platforms, websites I had bo
 
 Then the idea for the project came I designed a web application to collect any useful bookmark form anywhere I find. In this app you can
 
-*Login or create a new account
-*Create a new bookmark
-*Add the link for the bookmark
-*Add a description
-*Add any personal notes or summary for that bookmark
-*Update any existing bookmark
-*Delete any bookmark
-*Search for bookmark depending on the subject
-*Change user password
-
+* Login or create a new account
+* Create a new bookmark
+* Add the link for the bookmark
+* Add a description
+* Add any personal notes or summary for that bookmark
+* Update any existing bookmark
+* Delete any bookmark
+* Search for bookmark depending on the subject
+* Change user password
