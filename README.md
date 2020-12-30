@@ -16,9 +16,15 @@ Then the idea for the project came I designed a web application to collect any u
 * Delete any bookmark
 * Search for bookmark depending on the subject
 * Change user password<br>
-***This project is done as CS50x course final project.The project was developed on CS50 IDE***
-## Below there is a video demonstration of the project<br>
+
+
+## Project technologies :
+HTML, CSSS, FLASK, PYTHON, SQL
+
+***This project is done for CS50x course final project.The project was developed on CS50 IDE***
+
+#### Below there is a video demonstration of the project<br>
 
 <a href="https://youtu.be/aFHoRhUDiIE
 " target="_blank"><img src="http://img.youtube.com/vi/aFHoRhUDiIE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="500" height="300" border="10" /></a>
+alt="project link" width="500" height="300" border="10" /></a>
