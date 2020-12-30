@@ -17,7 +17,8 @@ Then the idea for the project came I designed a web application to collect any u
 * Search for bookmark depending on the subject
 * Change user password
 *** This project is done as CS50x course final project.The project was developed on CS50 IDE***
-##Below there is a video demonstration of the project
+##Below there is a video demonstration of the project<br>
+
 <a href="https://youtu.be/aFHoRhUDiIE
 " target="_blank"><img src="http://img.youtube.com/vi/aFHoRhUDiIE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="500" height="300" border="10" /></a>
