@@ -22,6 +22,10 @@ Then the idea for the project came I designed a web application to collect any u
 HTML, CSSS, FLASK, PYTHON, SQL
 
 ***This project is done for CS50x course final project.The project was developed on CS50 IDE***
+## Running In CS50 IDE 
+Start Flask’s built-in web server (within final-project/):<br>
+``` $ flask run ``` <br>
+Visit the URL outputted by flask to see the project
 
 #### Below there is a video demonstration of the project<br>
 
