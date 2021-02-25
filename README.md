@@ -5,7 +5,7 @@ So, I started to bookmark the subjects, articles, tutorial that I found useful t
 
 I had different bookmarks on different social media platforms, websites I had bookmarks on my phone, bookmarks on my laptop ....everywhere.
 
-Then the idea for the project came I designed a web application to collect any useful bookmark from anywhere I find. In this app you can
+Then the idea for the project came I designed a web application to collect and save any useful bookmark from any resource. In this app you can
 
 * Login or create a new account
 * Create a new bookmark
